@@ -1,0 +1,15 @@
+resources
+  CSV file: http://magictraders.org/pricelists/current-magic
+
+steps
+  [ ] fetch current CSV using an HTTP client
+  [ ] loop through the data and parse values out of each row 
+        (perhaps with: http://www.ruby-doc.org/core-1.9.3/String.html#method-i-split)
+  [ ] create a `Card` class to hold said data (i.e. name, price)
+  [ ] implement a method to look up a `Card` by name
+
+  [ ] loop through a list of card names
+    [ ] find the appropriate `Card`
+    [ ] grab the card price
+    [ ] add it to the card price total
+  [ ] display the total
