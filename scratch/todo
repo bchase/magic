@@ -13,3 +13,6 @@ steps
     [ ] grab the card price
     [ ] add it to the card price total
   [ ] display the total
+
+other
+  [ ] display mana cost for each card
